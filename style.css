@@ -1,0 +1,155 @@
+.hed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;    
+}
+
+.hed_pic{
+    background-image: url(img/th-inernet2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    margin: 0;
+    /*border-bottom: 10px solid black;*/
+    width: 120vw;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-size:2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url(img/hexagon-background-942982_1280.png);
+    background-size: 1000px;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    font-size: 3rem;
+    justify-content: center;
+    width: 115vw;
+}
+
+.hmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.art{
+    /*width: 50%;*/
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 111vw;
+    }
+
+.inform{
+    background: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+}
+
+.na_inf{
+    width: 100%;
+    background-color: black;
+    font-size: 3    rem;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: snow;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+
+}   
+
+.abzac{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+
+    body{
+  
+      font-size:2.2rem;
+  
+    }
+  
+  }
+  
+  @media (min-width: 1024px) {
+  
+    body{
+  
+        font-size:1.9rem;
+    
+      }
+  
+  }
+  
+  @media (min-width: 1366px) {
+  
+    body{
+  
+        font-size:1.4rem;
+        align-items: center;
+      
+      }
+      .art{
+          width: 70%;
+      }
+      .hmenu{
+          flex-direction: row;
+          justify-content: center;
+          /*align-items: flex-end;  */
+          background-color: black;
+          height: 40px;    
+      }
+      .menu{
+          font-size: 1.5rem;
+          width: 230px;
+          margin: 0;
+          padding: 5px 0 5px 0;
+          background-color: black;
+          border: 0;
+          color: white;
+          border-radius: 0px;
+      }
+  
+      .menu:hover{
+          background-color: white;
+          color: black;
+          border-bottom: 3px solid red;
+          transition-delay: 50ms;
+  
+      }
+  
+  }
